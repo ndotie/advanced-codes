@@ -40,3 +40,10 @@ const SliderInput = styled.input<{ disabled?: boolean }>`
           disabled={disabled}
           type="checkbox"
         />
+
+
+//====================== now lets clear the backdrop on react bootstrap =-===================
+ setTimeout(() => {
+        const backdrop = document.querySelector(".modal-backdrop.fade.show");
+        backdrop && backdrop.remove();
+      }, 500);
