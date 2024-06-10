@@ -1,0 +1,6 @@
+create a sample.txt file with the following content:
+1234567890
+This is some text
+another line of text
+more text
+final line
